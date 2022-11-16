@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="#">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/202b7d2b3d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="script.js"></script>
@@ -29,14 +29,22 @@
         <section class="validates">
             <h2 class="validates__heading">Cechy dobrego hasła:</h2>
             <ul class="validates__list">
-                <li class="validates__list__item"><i class="fa-regular fa-hand-peace"></i> at least 8 chars</li>
-                <li class="validates__list__item"><i class="fa-regular fa-hand-peace"></i> letters</li>
-                <li class="validates__list__item"><i class="fa-regular fa-hand-peace"></i> cyfers</li>
-                <li class="validates__list__item"><i class="fa-regular fa-hand-peace"></i> special znaks</li>
+                <li class="validates__list__item"><i class="validates__list__item__icon icon--ok fa-regular fa-hand-peace"></i>
+                    <p class="validates__list__item__text"> at least 8 chars</p>
+                </li>
+                <li class="validates__list__item"><i class="validates__list__item__icon fa-regular fa-hand-peace ok"></i>
+                    <p class="validates__list__item__text"> letters</p>
+                </li>
+                <li class="validates__list__item"><i class="validates__list__item__icon fa-regular fa-hand-peace"></i>
+                    <p class="validates__list__item__text"> cyfers</p>
+                </li>
+                <li class="validates__list__item"><i class="validates__list__item__icon fa-regular fa-hand-peace"></i>
+                    <p class="validates__list__item__text"> special znaks</p>
+                </li>
             </ul>
         </section>
         <section class="submit">
-            <button class="submit">Rank</button>
+            <button class="submit__btn btn">Rank</button>
         </section>
     </main>
 </body>
