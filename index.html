@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/202b7d2b3d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="script.js"></script>
-    <title>Text Size xkurwaD</title>
+    <title>Simple Password Validator</title>
 </head>
 
 <body>
@@ -24,22 +24,27 @@
             <h1 class="header__heading">Create your safe password</h1>
         </section>
         <section class="pass">
-            <input type="password" name="" id="" class="pass__input">
+            <input type="password" name="" id="password" class="pass__input">
+            <!-- <p class="pass__info">Enter your password above</p> -->
         </section>
         <section class="validates">
-            <h2 class="validates__heading">Cechy dobrego hasła:</h2>
+            <h2 class="validates__heading"> password should contain:</h2>
             <ul class="validates__list">
-                <li class="validates__list__item"><i class="validates__list__item__icon icon--ok fa-regular fa-hand-peace"></i>
+                <li class="validates__list__item"><i
+                        class="validates__list__item__icon chars fa-regular fa-hand-peace"></i>
                     <p class="validates__list__item__text"> at least 8 chars</p>
                 </li>
-                <li class="validates__list__item"><i class="validates__list__item__icon fa-regular fa-hand-peace ok"></i>
+                <li class="validates__list__item"><i
+                        class="validates__list__item__icon letters fa-regular fa-hand-peace"></i>
                     <p class="validates__list__item__text"> letters</p>
                 </li>
-                <li class="validates__list__item"><i class="validates__list__item__icon fa-regular fa-hand-peace"></i>
-                    <p class="validates__list__item__text"> cyfers</p>
+                <li class="validates__list__item"><i
+                        class="validates__list__item__icon digits fa-regular fa-hand-peace"></i>
+                    <p class="validates__list__item__text"> digits</p>
                 </li>
-                <li class="validates__list__item"><i class="validates__list__item__icon fa-regular fa-hand-peace"></i>
-                    <p class="validates__list__item__text"> special znaks</p>
+                <li class="validates__list__item"><i
+                        class="validates__list__item__icon special-chars fa-regular fa-hand-peace"></i>
+                    <p class="validates__list__item__text"> special chars</p>
                 </li>
             </ul>
         </section>
